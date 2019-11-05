@@ -5,8 +5,13 @@ from bottle import route, Bottle, run
 from sentry_sdk.integrations.bottle import BottleIntegration
 
 
-sentry_sdk.init(
-    dsn="",
+# sentry_sdk.init(
+#     dsn="https://3cd9c6de8ee14236a190ab58cac72fe3@sentry.io/1804185",
+#     integrations=[BottleIntegration()]
+# )
+
+ sentry_sdk.init(
+    dsn="SDN",
     integrations=[BottleIntegration()]
 )
 
