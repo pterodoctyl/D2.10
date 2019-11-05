@@ -11,7 +11,7 @@ from sentry_sdk.integrations.bottle import BottleIntegration
 # )
 
  sentry_sdk.init(
-    dsn="SDN",
+    dsn="DSN",
     integrations=[BottleIntegration()]
 )
 
